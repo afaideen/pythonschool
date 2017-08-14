@@ -39,3 +39,6 @@ def numberGuesser():
 
 def quiz():
     print("Now running quiz")
+
+
+mainmenu()

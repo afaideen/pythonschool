@@ -10,3 +10,6 @@ def wordsBegS():
             numberSwords = numberSwords + 1
 
     print("End of program")
+
+
+wordsBegS()

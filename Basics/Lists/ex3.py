@@ -11,4 +11,7 @@ def averageProg():
     average = runningTotal / len(listOfNumbers)
     # the average is the runningTotal at the end / how many numbers
     print(listOfNumbers)
-    print("The average of these numbers is {0:.2f}".format(average))
+    print("The average of these numbers is {1:.2f}".format(average))
+
+
+averageProg()

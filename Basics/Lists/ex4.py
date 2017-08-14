@@ -32,8 +32,14 @@ def farmList3():
         termList.append(term)
     reverseOrder = input("Do you want it printed out in reverse? (y/n)")
     if reverseOrder == "y":
-        print(termList[::-1])
+        termList.reverse()  # print(termList[::-1])
+        print(termList)
     else:
         print(termList)
     whichTerm = int(input("Which term (1-6) would you like to see again? "))
     print(termList[whichTerm - 1])  # minus 1 as our list starts at 0
+
+
+# farmList()
+# farmList2()
+farmList3()

@@ -24,3 +24,6 @@ def main():
     userNumber = inputData()
     result = processData(userNumber)
     outputData(userNumber, result)
+
+
+main()

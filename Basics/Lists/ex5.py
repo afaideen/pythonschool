@@ -11,3 +11,8 @@ def diceThrowing():
 
     for counter in range(1, 7):
         print("|{0:^8} | {1:^10}|".format(counter, tally[counter - 1]))
+    for counter in range(1, 7):
+        print("|{0:8d} | {1:10d}|".format(counter, tally[counter - 1]))
+
+
+diceThrowing()
