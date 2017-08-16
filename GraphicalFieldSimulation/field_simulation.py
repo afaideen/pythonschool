@@ -1,6 +1,6 @@
 import random
 import sys
-
+import field_resources
 from field_manual_grow_dialog_class import ManualGrowDialog
 from field_report_dialog_class import FieldReportDialog
 from graphic_drag_label_class import *

@@ -4,7 +4,7 @@ try:
     from PyQt4.QtCore import *
     from PyQt4.QtGui import *
 except:
-    from PyQt5.QtGui import QBrush, QPixmap
+    from PyQt5.QtGui import QBrush, QPixmap, QCursor
     from PyQt5.QtWidgets import *
 
 from graphic_cow_item_class import CowGraphicsPixmapItem
