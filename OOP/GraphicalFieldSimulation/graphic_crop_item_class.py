@@ -1,6 +1,11 @@
-from PyQt5.QtGui import QPixmap
 
-from OOP.GraphicalFieldSimulation.graphic_field_item_class import FieldItemGraphicsPixmapItem
+try:
+    from PyQt4.QtCore import *
+    from PyQt4.QtGui import *
+except:
+    from PyQt5.QtGui import QPixmap
+
+from GraphicalFieldSimulation.graphic_field_item_class import FieldItemGraphicsPixmapItem
 
 
 class CropGraphicsPixmapItem(FieldItemGraphicsPixmapItem):

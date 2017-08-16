@@ -1,11 +1,17 @@
-from PyQt5.QtGui import *
-from PyQt5.QtWidgets import *
+from OOP.GraphicalFieldSimulation.field_class import Field
 
-from OOP.GraphicalFieldSimulation.graphic_cow_item_class import CowGraphicsPixmapItem
-from OOP.GraphicalFieldSimulation.graphic_potato_item_class import PotatoGraphicsPixmapItem
-from OOP.GraphicalFieldSimulation.graphic_sheep_item_class import SheepGraphicsPixmapItem
-from OOP.GraphicalFieldSimulation.graphic_wheat_item_class import WheatGraphicsPixmapItem
-from OOP.field_class import Field
+try:
+    from PyQt4.QtCore import *
+    from PyQt4.QtGui import *
+except:
+    from PyQt5.QtGui import QBrush, QPixmap
+    from PyQt5.QtWidgets import *
+
+from GraphicalFieldSimulation.graphic_cow_item_class import CowGraphicsPixmapItem
+from GraphicalFieldSimulation.graphic_potato_item_class import PotatoGraphicsPixmapItem
+from GraphicalFieldSimulation.graphic_sheep_item_class import SheepGraphicsPixmapItem
+from GraphicalFieldSimulation.graphic_wheat_item_class import WheatGraphicsPixmapItem
+
 
 
 class FieldGraphicsScene(QGraphicsScene):

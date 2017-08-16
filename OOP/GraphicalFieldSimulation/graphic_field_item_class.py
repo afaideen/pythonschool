@@ -1,5 +1,10 @@
-from PyQt5.QtGui import QPixmap
-from PyQt5.QtWidgets import QGraphicsItem, QGraphicsPixmapItem
+
+try:
+    from PyQt4.QtCore import *
+    from PyQt4.QtGui import *
+except:
+    from PyQt5.QtGui import QPixmap
+    from PyQt5.QtWidgets import QGraphicsItem, QGraphicsPixmapItem
 
 
 class FieldItemGraphicsPixmapItem(QGraphicsPixmapItem):

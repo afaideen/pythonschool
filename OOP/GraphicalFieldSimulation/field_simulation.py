@@ -1,13 +1,18 @@
 import random
 import sys
 
-from PyQt5.QtCore import *
-from PyQt5.QtWidgets import *
+try:
+    from PyQt4.QtCore import *
+    from PyQt4.QtGui import *
+except:
+    from PyQt5.QtCore import *
+    from PyQt5.QtWidgets import *
 
-from OOP.GraphicalFieldSimulation.field_manual_grow_dialog_class import ManualGrowDialog
-from OOP.GraphicalFieldSimulation.field_report_dialog_class import FieldReportDialog
-from OOP.GraphicalFieldSimulation.graphic_drag_label_class import *
-from OOP.GraphicalFieldSimulation.graphic_field_scene_class import FieldGraphicsScene
+from GraphicalFieldSimulation.field_manual_grow_dialog_class import ManualGrowDialog
+from GraphicalFieldSimulation.field_report_dialog_class import FieldReportDialog
+from GraphicalFieldSimulation.graphic_drag_label_class import *
+from GraphicalFieldSimulation.graphic_field_scene_class import FieldGraphicsScene
+import GraphicalFieldSimulation.field_resources
 
 
 class FieldWindow(QMainWindow):

@@ -1,7 +1,12 @@
-from PyQt5.QtGui import QPixmap
-from PyQt5.QtWidgets import QMenu
 
-from OOP.GraphicalFieldSimulation.graphic_field_item_class import FieldItemGraphicsPixmapItem
+try:
+    from PyQt4.QtCore import *
+    from PyQt4.QtGui import *
+except:
+    from PyQt5.QtGui import *
+    from PyQt5.QtWidgets import *
+
+from GraphicalFieldSimulation.graphic_field_item_class import FieldItemGraphicsPixmapItem
 
 
 class AnimalGraphicsPixmapItem(FieldItemGraphicsPixmapItem):

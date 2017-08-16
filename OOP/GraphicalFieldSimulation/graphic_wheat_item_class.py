@@ -1,5 +1,5 @@
-from OOP.GraphicalFieldSimulation.graphic_crop_item_class import CropGraphicsPixmapItem
-from OOP.wheat_class import *
+from GraphicalFieldSimulation.graphic_crop_item_class import CropGraphicsPixmapItem
+from GraphicalFieldSimulation.wheat_class import Wheat
 
 
 class WheatGraphicsPixmapItem(CropGraphicsPixmapItem):

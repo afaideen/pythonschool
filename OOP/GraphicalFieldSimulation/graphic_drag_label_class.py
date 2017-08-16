@@ -1,6 +1,11 @@
-from PyQt5.QtCore import *
-from PyQt5.QtGui import QPixmap, QDrag
-from PyQt5.QtWidgets import QLabel
+
+try:
+    from PyQt4.QtCore import *
+    from PyQt4.QtGui import *
+except:
+    from PyQt5.QtCore import *
+    from PyQt5.QtGui import QPixmap, QDrag
+    from PyQt5.QtWidgets import QLabel
 
 
 class QDragLabel(QLabel):

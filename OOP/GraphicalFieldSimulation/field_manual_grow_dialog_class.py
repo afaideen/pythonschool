@@ -1,4 +1,10 @@
-from PyQt5.QtWidgets import *
+
+
+try:
+    from PyQt4.QtCore import *
+    from PyQt4.QtGui import *
+except:
+    from PyQt5.QtWidgets import *
 
 
 class ManualGrowDialog(QDialog):

@@ -1,5 +1,5 @@
-from OOP.GraphicalFieldSimulation.graphic_animal_item_class import AnimalGraphicsPixmapItem
-from OOP.sheep_class import Sheep
+from GraphicalFieldSimulation.graphic_animal_item_class import AnimalGraphicsPixmapItem
+from GraphicalFieldSimulation.sheep_class import Sheep
 
 
 class SheepGraphicsPixmapItem(AnimalGraphicsPixmapItem):

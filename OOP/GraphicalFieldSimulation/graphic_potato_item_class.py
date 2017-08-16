@@ -1,5 +1,5 @@
-from OOP.GraphicalFieldSimulation.graphic_crop_item_class import CropGraphicsPixmapItem
-from OOP.potato_class import Potato
+from GraphicalFieldSimulation.graphic_crop_item_class import CropGraphicsPixmapItem
+from GraphicalFieldSimulation.potato_class import Potato
 
 
 class PotatoGraphicsPixmapItem(CropGraphicsPixmapItem):
